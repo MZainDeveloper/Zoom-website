@@ -1,0 +1,602 @@
+body{
+    margin: 0;
+}
+@media(max-width: 900px){
+    #mainbody{
+        display:inline-flexbox;
+    }
+}
+#mainbox{
+    background-color: rgb(0, 0, 0);
+    height: 7vh;
+    max-width: 100%;
+    position: relative;
+}
+#navbar{
+    display: inline ;
+    position: relative;
+    top: 10px;
+    left: 45%;
+    margin: 10px;
+    list-style-type:none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ #Navigation, a{
+    color: aliceblue; 
+    text-decoration: none;
+}
+#header{
+    height: 8vh;
+    background-color: rgba(255, 255, 255, 0.89);
+}
+#logo{
+    height: 7vh;
+    width: 9vw;
+    margin-left: 70px;
+    margin-top: 9px;
+}
+#Products{
+    color: rgba(0, 0, 0, 0.678);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4%;
+}
+#Solutions{
+    color: rgba(0, 0, 0, 0.678);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Resources{
+    color: rgba(0, 0, 0, 0.678);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+#Plans{
+    color: rgba(0, 0, 0, 0.678);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header a:hover{
+    color: rgba(36, 36, 221, 0.842);
+}
+h3{
+    display: inline;
+    padding: 15px;
+    bottom: 15px;  
+    position: relative;
+    right: 5px;
+}
+#bn:hover{
+    background-color: #5d4cbb34;
+}
+#btn{
+    background-color:rgba(0, 47, 255, 0.856) ;
+    color: white;
+    border-radius: 60px;  
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btn:hover{
+    background-color: rgb(0, 47, 255);
+}
+#AI{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 3%;
+    float: left;
+    display: block;
+}
+#content{
+    font-size:70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#subcontent{
+    color:rgba(0, 47, 255, 0.856);
+    bottom: 57px;
+    position: relative;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#subcontent1{ 
+    position: relative;
+    bottom: 100px;
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    position: relative;
+    height: 6vh;
+    width: 10vw;
+    left: 16%;
+    bottom: 18px;
+    background-color: white;
+    color: rgba(0, 17, 255, 0.932) ;
+    border-radius:70px;
+    border: 1px  rgba(0, 47, 255, 0.603) solid;
+    margin: 5px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+#Pricing{
+    width: 13vw;
+    position: relative;
+    left: 30px;
+    bottom: 18%;
+    background-color:rgba(0, 47, 255, 0.856) ;
+    border-radius: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Pricing:hover{
+    background-color: rgb(0, 47, 255);
+}
+#Discover{
+    width: 17vw;
+    border: 1px white solid;
+    position: relative;
+    left: 30px;
+    bottom: 18%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#image-container{
+    display: flex;
+    height: 550px;
+    width: 750px;
+    margin-left: 40px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+#picture3{
+    height: 150px;
+    width: 310px;
+    margin-left: 170px;
+    display: inline-block;
+}
+#p3{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#picture1{
+    height: 280px;
+    width: 400px;
+    margin-top: 270px;
+    border-radius: 15px;
+    display: inline-block;
+    position: absolute;
+}
+#p1{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#picture2{
+    height: 390px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    display: inline-block;
+    position: relative;
+}
+#p2{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#picture3{
+    height: 150px;
+    width: 310px;
+    margin-top: 110px;
+    margin-left: 190px;
+    position: absolute;
+}
+#p3{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#picture4{
+    height: 100px;
+    width: 250px;
+    margin-top: 420px;
+    margin-left: 440px;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    position: absolute;
+}
+#p4{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#leftsubbox{
+    height: 110vh;
+    width: 22vw;
+    background-color: rgb(2, 2, 41);
+    float: left;
+    display: block;
+}
+#subbox1{
+    height: 23vh;
+    width: 22vw;
+    background-color: blue;
+}
+#subboximg1{
+    height: 8vh;
+    width: 17vw;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#subbox2{
+    height: 25vh;
+    width: 22vw;
+    background-color: rgb(2, 2, 41);
+}
+#FS{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#sublist{
+    list-style: none;
+    border: 5px;
+}
+#sublist li:hover{
+    border: #1e1cb8;
+    background-color: #453ada94;
+    
+}
+#midsubbox{
+    height: 110vh;
+    width: 75vw;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+#picture5{
+    height: 410px;
+    width: 400px;
+    margin-top: 130px;
+    margin-left: 30px;
+    display: inline-block;
+    position: absolute;
+}
+#p5{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#picture6{
+    margin-top: 370px;
+    height: 200px;
+    width: 250px;
+    margin-left: 235px;
+    display: inline-block;
+    position: relative;
+}
+#p6{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+#rightsubbox{
+    height: 102vh;
+    width: 35vw;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;
+}
+#UP{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#MC{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    margin-left: 40px;
+}
+#ZO{
+    display: block;
+    white-space: nowrap;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ZOIC{
+    padding: 5px;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: black;
+    vertical-align: text-bottom
+}
+#icon{
+    vertical-align: middle;
+    height: auto;
+    width: auto;
+    margin-bottom: 5px;
+    margin-left: 35px;
+    flex-shrink: 0
+}
+#DZ{
+    width: 220px;
+    margin-top: 40px;
+    margin-left: 0;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+#rightsubbox button:hover{
+    background-color: rgba(9, 5, 228, 0.226);
+}
+#heading{ 
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#RWS{
+    height: 300px;
+    width: 100%;
+}
+#RB{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#redbull{
+    height: 300px;
+    max-width: 350px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 2%;
+}
+#p1{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#redbull:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+#capital{
+    height: 300px;
+    max-width: 350px;
+    background-color:white;
+    display: inline-block;
+    position: absolute;
+    left: 35%;
+    border-radius: 20px;
+}
+#CL{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#p2{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#capital:hover{
+    background-color: rgba(54, 0, 202, 0.842);
+    color: white;
+}
+#forbes{
+    height: 300px;
+    max-width: 350px;
+    background-color: white;
+    left: 68%;
+    border-radius: 20px;
+    display: inline-block;
+    position: absolute;
+}
+#FB{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#p3{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#forbes:hover{ 
+    background-color: rgba(7, 7, 7, 0.795);
+    color: white;
+}
+#GI{
+    height: 6vh;
+    width: 10vw;
+    color:rgba(0, 47, 255, 0.856) ;
+    position: relative;
+    top: 25px;
+    left: 45%;
+}
+#GI:hover{
+    background-color: rgba(0, 47, 255, 0.856);
+    color: white;
+}
+#RD{
+    height: 250px;
+    max-width: 100%;
+    background-color:rgba(0, 47, 255, 0.856) ;
+    position: relative;
+}
+#RS{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 30px;
+}
+#SU{
+    top: 40px;
+    left: 35%;
+    height: 8vh;
+    width: 15vw;
+    color: black;
+    background-color: rgb(67, 233, 177);
+    position: relative;  
+}
+#SU:hover{
+    background-color: rgb(13, 233, 159);
+}
+#PP{
+    top: 40px;
+    left: 35%;
+    height: 8vh;
+    width: 15vw;
+    color: white;
+    background-color: rgba(0, 47, 255, 0.774);
+    border: 2px solid white;
+    position: relative;    
+}
+#PP:hover{
+    background-color: white;
+    color: rgba(0, 47, 255, 0.856);
+}
+#FA{
+    height: 440px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+}
+#A{
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin-left: 15px;
+    padding: 1%;
+}
+#ftabout{
+    height: 420px;
+    width: 18%;
+    display: inline-block;
+    position: absolute;
+}
+#abt{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+#ftdownload{
+    height: 420px;
+    width: 18%;
+    margin-left: 250px;
+    display: inline-block;
+    position: absolute;
+}
+#dld{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+#ftsales{
+    height: 420px;
+    width: 18%;
+    margin-left: 500px;
+    display: inline-block;
+    position: absolute;
+}
+#sls{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+#ftsupport{
+    height: 420px;
+    width: 18%;
+    margin-left: 750px;
+    display: inline-block;
+    position: absolute;
+}
+#spt{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+#ftlanguage{
+    height: 420px;
+    width: 25%;
+    margin-left: 1000px;
+    display: inline-block;
+    position: absolute;
+}
+#lnge{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+#optlnge{
+    padding: 8px 14px;
+    color: #555;
+    text-decoration: none;
+    display: block;
+    margin-left: 15px;
+    clear: both;
+    font-weight: 300;
+    line-height: 15px;
+    white-space: nowrap;
+    text-transform: inherit;
+}
+#crny{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+#optcrny{
+    padding: 8px 14px;
+    color: #555;
+    text-decoration: none;
+    display: block;
+    margin-left: 15px;
+    clear: both;
+    font-weight: 300;
+    line-height: 15px;
+    white-space: nowrap;
+    text-transform: inherit; 
+}
+#info{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.726);
+    text-align: center;  
+}
+#ftinfo{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
